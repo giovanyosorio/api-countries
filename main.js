@@ -29,7 +29,7 @@ async function fetchData(){
   //  capital.innerHTML=pais.capital[0]
 }
 
-//fetchData(URL)
+fetchData()
 
 
 const myButton = document.querySelector("button");
@@ -40,4 +40,3 @@ myButton.addEventListener("click", () => {
     return fetchData(URL);
   });
 
-  fetchData()
